@@ -942,6 +942,46 @@ section > h2
   }
 /***** FIN EXPERIENCE *****/
 
+/***** FORMATION *****/
+  .certification
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.certification div:nth-of-type(2){
+  
+  width: 40%;
+}
+
+.certification a{
+  display: none;
+}
+
+.certification a:nth-of-type(1){
+  display: block;
+}
+.certification-img
+  {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: grayscale(100%) blur(0.5px);
+            filter: grayscale(100%) blur(0.5px);
+    -webkit-transition:all .3s ease-in-out;
+            transition:all .3s ease-in-out;
+  }
+
+  .certification-img:hover
+  {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    -webkit-filter: grayscale(0) blur(0);
+            filter: grayscale(0) blur(0);
+    -webkit-transition:all .2s ease-in-out;
+            transition:all .2s ease-in-out;
+  }
+/***** FIN FORMATION *****/
+
 /***** COMPETENCES *****/
   @import url(https://fonts.googleapis.com/css?family=Aldrich);
 
@@ -1532,3 +1572,4 @@ section > h2
     background-position: left;
   }
 }
+

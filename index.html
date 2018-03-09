@@ -2,13 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-KXS235L');</script>
-  <!-- End Google Tag Manager -->
+  
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -18,14 +12,11 @@
   <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css'>
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/lightbox.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXS235L"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   
   <div id="social" class="animated fadeInDownBig">
     <a href="https://linkedin.com/in/frédéric-roth-10704915a" target="_blank" class="icon-button linkedin"><i class="icon-linkedin"></i><span></span></a>
@@ -184,20 +175,40 @@
       <h3><a href="http://wf3.fr" target="_blank">WebForce3</a><span class="date">(2018)</span></h3> 
       
       <ul>Double certification <strong>"Techniques de développement web"</strong> et <strong>"Techniques d'intégration web"</strong>, inscrites à l’inventaire de la Commission Nationale de Certification Professionnelle (CNCP) :
-        <li>- <strong>HTML5 / CSS3 / Bootstrap</strong></li>
-        <li>- <strong>Javascript / JQuery</strong></li>
-        <li>- <strong>PHP / MYSQL</strong></li>
-        <li>- <strong>Wordpress</strong> (initiation)</li>
-        <li>- <strong>Symfony 4</strong> (initiation)</li>
+        <div class="certification">
+          <div>
+            <li>- <strong>HTML5 / CSS3 / Bootstrap</strong></li>
+            <li>- <strong>Javascript / JQuery</strong></li>
+            <li>- <strong>PHP / MYSQL</strong></li>
+            <li>- <strong>Wordpress</strong> (initiation)</li>
+            <li>- <strong>Symfony 4</strong> (initiation)</li>
+          </div>
+          <div>
+            <a href="img/developpement_certif.jpg" data-lightbox="1" data-title='Certificat - Techniques de développement WEB -'><img src="img/developpement_certif.jpg" alt="Certificat de - Techniques de développement WEB -"  class="certification-img"></a>
+            <a href="img/integration_certif.jpg" data-lightbox="1" data-title="Certificat - Techniques d'intégration WEB -"><img src="img/integration_certif.jpg" alt="Certificat de - Techniques d'intégration WEB -"  class="certification-img"></a>
+          </div>
+       </div>
+        
       </ul>
       
       <h3><a href="https://openclassrooms.com" target="_blank">OpenClassRooms</a><span class="date">(2017)</span></h3> 
       
       <ul>Certifications de formation en ligne :
-        <li>- Créer son site web avec <strong>HTML5 et CSS3</strong></li>
-        <li>- Coder avec <strong>JavaScript</strong></li>
-        <li>- Introduction à <strong>JQuery</strong></li>
-        <li>- <strong>Comprendre le Web</strong></li> 
+        <div class="certification">
+          <div>
+            <li>- Créer son site web avec <strong>HTML5 et CSS3</strong></li>
+            <li>- Coder avec <strong>JavaScript</strong></li>
+            <li>- Introduction à <strong>JQuery</strong></li>
+            <li>- <strong>Comprendre le Web</strong></li> 
+          </div>
+          <div>
+            <a href="img/openclass_html.jpg" data-lightbox="1" data-title='Certificat - Techniques de développement WEB -'><img src="img/openclass_html.jpg" alt="Certificat de - Techniques de développement WEB -"  class="certification-img"></a>
+            <a href="img/openclass_javascript.jpg" data-lightbox="1" data-title="Certificat - Techniques d'intégration WEB -"><img src="img/openclass_javascript.jpg" alt="Certificat de - Techniques d'intégration WEB -"  class="certification-img"></a>
+            <a href="img/openclass_jquery.jpg" data-lightbox="1" data-title="Certificat - Techniques d'intégration WEB -"><img src="img/openclass_jquery.jpg" alt="Certificat de - Techniques d'intégration WEB -"  class="certification-img"></a>
+            <a href="img/openclass_web.jpg" data-lightbox="1" data-title="Certificat - Techniques d'intégration WEB -"><img src="img/openclass_web.jpg" alt="Certificat de - Techniques d'intégration WEB -"  class="certification-img"></a>
+          </div>
+       </div>
+        
       </ul>
       
       <h3>Académie des métiers de la gestion<span class="date">(2009)</span></h3> 
@@ -328,6 +339,12 @@
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/lightbox.js"></script>
+<script>
+    lightbox.option({
+        'alwaysShowNavOnTouchDevices': true,
+    })
+</script>
   
 </body>
 </html>
